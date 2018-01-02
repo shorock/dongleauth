@@ -91,8 +91,10 @@ websites:
       url: https://www.vanguard.com/
       twitter: Vanguard_Group
       img: vanguard.png
-      tfa: No
-      status: https://twitter.com/Vanguard_Group/status/499260535360466944
+      tfa: Yes 
+      u2f: Yes
+      exceptions:
+        text: "U2F ('Security Key'). Only allows Yubico-signed U2F devices to enroll. Only works in desktop Chrome. Only available on personal investment accounts. No non-customer document available."
 
     - name: Wealthfront
       url: https://www.wealthfront.com/
